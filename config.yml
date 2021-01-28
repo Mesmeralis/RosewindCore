@@ -1,0 +1,17 @@
+###### Configuration.
+###### Core
+##### Use %p% for player and %msg% for message.
+prefix: "&8[&6Core&8] &r"
+help:
+  - '&a test1'
+  - '&a test2'
+adminsound:
+  - "ENTITY_ENDER_DRAGON_GROWL"
+playersound:
+  - "Sound.BLOCK_NOTE_BLOCK_BELL"
+joinmessage:
+  - ''
+leavemessage:
+  - ''
+chatformat:
+  - '%p %message'

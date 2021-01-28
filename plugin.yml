@@ -1,0 +1,92 @@
+name: RosewindCore
+version: 1.0
+author: vividheart
+main: me.vividheart.core.Main
+description: A plugin for your server that has cool commands.
+depend: [Vault, Sentinel, Citizens]
+loadafter: [Vault]
+commands:
+  torture:
+    usage: /<command> [player]
+    description: Torture a player
+  fish:
+    usage: /<command>
+    description: Breathe under water.
+  v:
+    usage: /<command>
+    description: Vanish.
+    aliases:
+      - vanish
+  glow:
+    usage: /<command>
+    description: Glow.
+  lock:
+    usage: /<command> [player]
+    description: Lock a player.
+  amsg:
+    usage: /<command> [player] [message]
+    description: Send an anonymous message as an admin to a player.
+  boom:
+    usage: /<command>
+    description: Boom.
+  tab:
+    usage: /<command> [args]
+    description: Change the tab information.
+  gm:
+    usage: /<command> [gamemode]
+    description: Change your gamemode.
+    aliases:
+      - gamemode
+  gmc:
+    usage: /<command>
+    description: Set your gamemode to creative.
+  gms:
+    usage: /<command>
+    description: Set your gamemode to survival.
+  help:
+    usage: /<command>
+    description: Get help.
+  rcore:
+    usage: /<command> [args]
+    description: Info about the plugin, or reload.
+  hideall:
+    usage: /<command>
+    description: Safety command to hide all player names.
+  joinsound:
+    usage: /<command> [args] [args]
+    description: Test.
+  weather:
+    usage: /<command> [weather]
+    description: Change weather.
+  time:
+    usage: /<command> [time]
+    description: Change time.
+  home:
+    usage: /<home> [home]
+    description: Home.
+  sethome:
+    usage: /<sethome> [name]
+    description: Set home.
+  homes:
+    usage: /<command>
+    description: See your homes.
+  setspawn:
+    usage: /<command>
+    description: Set the spawn.
+  spawn:
+    usage: /<command>
+    description: Go to spawn.
+  speed:
+    usage: /<command> [args]
+    description: Speed.
+  delhome:
+    usage: /<command> [home]
+    description: Delete home.
+  fly:
+    usage: /<command>
+    description: Fly.
+  nametag:
+    usage: /<command> [player] [name]
+    description: Nametag.
+  resetpoints:
+    usage: /<command> [player]
